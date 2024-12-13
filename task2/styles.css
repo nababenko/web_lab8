@@ -1,0 +1,34 @@
+form.feedback-form {
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form.feedback-form label {
+    display: flex;
+    flex-direction: column;
+}
+input:hover, textarea:hover {
+    border: 2px solid #000;
+}
+
+input:focus, textarea:focus {
+    border: 1px solid #000;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+form.feedback-form button {
+    align-self: flex-start;
+    padding: 10px 20px;
+    background-color: #2e547c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+form.feedback-form button:hover {
+    background-color: #546d8a;
+}
